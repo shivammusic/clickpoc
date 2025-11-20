@@ -1,9 +1,0 @@
-User
-Admin
-Account
-Session
-Token
-Query
-Mutation
-Profile
-Node
