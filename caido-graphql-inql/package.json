@@ -1,0 +1,23 @@
+{
+  "name": "caido-graphql-inql",
+  "version": "0.1.0",
+  "description": "Caido plugin that mirrors INQL-style GraphQL scanning with replay helpers",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist"
+  },
+  "author": "",
+  "license": "MIT",
+  "caido": {
+    "id": "caido-graphql-inql",
+    "name": "GraphQL INQL Scanner",
+    "api": "0.29.0",
+    "description": "INQL-style GraphQL scanner with schema explorer, discovery, and replay",
+    "entry": "dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
